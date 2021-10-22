@@ -1,0 +1,65 @@
+stix=(input("ведите сторку из стиха "))
+print("длина строки ",len(stix))
+print(stix[0])
+print(stix[-1])
+name=(input("ведите имя "))
+s=name.upper()
+print(s)
+
+
+
+
+
+slovo=input("ведите слово ")
+print(slovo[0])
+x=slovo[0]
+x1=slovo
+c=0
+if x=="a" or x=="e" or x=="y" or x=="u" or x=="o":
+ x1 = slovo + "way"
+ print(x1)
+elif slovo.isdigit():
+    print("eror")
+else:
+    x1 = x1[1:]
+    print(x1)
+    x1 += x + "ay"
+    print(x1)
+    
+    
+    
+    
+#hom_work2
+
+name1=(input("ведитк имя"))
+famileay=(input("ведите фамилия"))
+print(name1+" ",famileay)
+
+
+
+
+name=(input("ведите имя "))
+print("длина вашегг имиени ", len(name) )
+
+
+
+
+name=(input("ведите имя "))
+familiay=(input("видите фамилия "))
+
+s=name.upper()+familiay.upper()
+print(s)
+
+
+
+
+name=(input("ведите имя "))
+x=len(name)
+if x<5:
+ familiay=(input("ведите фамилию "))
+ s = name.upper() + familiay.upper()
+ print(s)
+elif x>=5:
+ y=name.lower()
+ print(y)
+
